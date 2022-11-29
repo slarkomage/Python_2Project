@@ -112,8 +112,8 @@ def register_handlers_client(dp: Dispatcher):
     dp.register_message_handler(load_amount_gifs, content_types=types.ContentType.TEXT, state=FSMAdmin.rating)
     dp.register_message_handler(more_gifs, lambda message: 'Найти еще GIF' in message.text, state=FSMAdmin.repeat)
     dp.register_message_handler(back_to_menu, lambda message: 'Вернуться в меню' in message.text, state=FSMAdmin.repeat)
-    dp.register_message_handler(cancel_searching, content_types=['photo', 'document', 'text'], state=FSMAdmin.repeat)
+    dp.register_message_handler(cancel_searching, content_types=['photo', 'document', 'text', 'sticker'], state=FSMAdmin.repeat)
     dp.register_message_handler(unknown_message)
-    dp.register_message_handler(incorrect_format, content_types=['photo', 'document'])
+    dp.register_message_handler(incorrect_format, content_types=['photo', 'document', 'sticker'])
 
 #Дописать выход из поиска и обработку неверного формата
