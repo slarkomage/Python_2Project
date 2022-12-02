@@ -1,12 +1,12 @@
-TOKEN = '5938616925:AAGelOFpqZHm_UKtwEl_Tgzk9i9UPilr1Yg'
-API_TOKEN = 'gCdg3PmhiF6q6puAPaBfpHkQ64iOy91f'
+TOKEN = ''
+API_TOKEN = ''
 API_LINK_TRENDING = 'https://api.giphy.com/v1/gifs/trending'
 API_LINK_RANDOM = 'https://api.giphy.com/v1/gifs/random'
 API_LINK_SEARCH = 'https://api.giphy.com/v1/gifs/search'
 START_MESSAGE = 'Привет!\n\n<b>Что умеет этот бот?</b>\n\n' \
                 'С помощью кнопок меню ты можешь искать GIF по ключевым словам, просматривать популярные или случайные.\n' \
                 'За GIFки из категории "Любые" администрация ответственность не несет :)\n\n' \
-                'Для более подробной информации воспользуйся командой /help'
+                'Для получения более подробной информации воспользуйся командой /help'
 HELP = '<b>Поиск по ключевым словам.</b>\n\n' \
        'Поддерживает любые языки, ограничен первыми 50 символами.\n' \
        'Во время выбора категории при некорректном вводе автоматически выставляется "Только адекватные".\n\n' \
